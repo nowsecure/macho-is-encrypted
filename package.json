@@ -1,0 +1,34 @@
+{
+  "name": "macho-is-encrypted",
+  "version": "0.0.1",
+  "description": "Determine if your macho is encrypted",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "author": "David Weinstein <dweinst@insitusec.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "^4.5.1"
+  },
+  "dependencies": {
+    "fatmacho": "^0.1.1",
+    "macho": "^0.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nowsecure/macho-is-encrypted.git"
+  },
+  "keywords": [
+    "macho",
+    "encrypted",
+    "executable",
+    "mach-o",
+    "drm",
+    "binary"
+  ],
+  "bugs": {
+    "url": "https://github.com/nowsecure/macho-is-encrypted/issues"
+  },
+  "homepage": "https://github.com/nowsecure/macho-is-encrypted#readme"
+}
