@@ -6,6 +6,9 @@
   "scripts": {
     "test": "tape test.js"
   },
+  "bin": {
+    "macho-is-encrypted": "./bin.js"
+  },
   "author": "David Weinstein <dweinst@insitusec.com>",
   "license": "MIT",
   "devDependencies": {
