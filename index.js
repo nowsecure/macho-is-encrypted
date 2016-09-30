@@ -10,8 +10,8 @@ const SYNC_API = {
 
 function hasEncLoadCmd (cmds) {
   for (let cmd of cmds) {
-    if (cmd.type === 'encryption_info') {
-      if (cmd.id) {
+    if (cmd.type === 'encryption_info' || cmd.type === 'encryption_info_64') {
+      if (typeof cmd.id !== 'undefined') {
         return true
       }
     }

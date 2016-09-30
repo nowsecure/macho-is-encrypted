@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "fatmacho": "^0.1.1",
-    "macho": "^0.4.0"
+    "macho": "^1.1.0"
   },
   "repository": {
     "type": "git",
