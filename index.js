@@ -11,7 +11,7 @@ const SYNC_API = {
 function hasEncLoadCmd (cmds, containTraces) {
   for (let cmd of cmds) {
     if (cmd.type === 'encryption_info' || cmd.type === 'encryption_info_64') {
-      if (containTraces === true || typeof cmd.id !== 'undefined') {
+      if (containTraces === true || cmd.id === 1) {
         return true
       }
     }
