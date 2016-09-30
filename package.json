@@ -4,7 +4,8 @@
   "description": "Determine if your macho is encrypted",
   "main": "index.js",
   "scripts": {
-    "test": "tape test.js"
+    "test": "tape test.js",
+    "lint": "semistandard *.js"
   },
   "bin": {
     "macho-is-encrypted": "./bin.js"
@@ -12,6 +13,7 @@
   "author": "David Weinstein <dweinst@insitusec.com>",
   "license": "MIT",
   "devDependencies": {
+    "semistandard": "*",
     "tape": "^4.5.1"
   },
   "dependencies": {
