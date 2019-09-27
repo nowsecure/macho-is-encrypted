@@ -15,8 +15,8 @@
     "tape": "^4.5.1"
   },
   "dependencies": {
-    "fatmacho": "^0.1.1",
-    "macho": "^1.1.0"
+    "fatmacho": "^0.1.2",
+    "macho": "^1.4.0"
   },
   "repository": {
     "type": "git",
